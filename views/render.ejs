@@ -1,0 +1,10 @@
+<h1>Your Param is</h1>
+<h2><%= v %></h2>
+<h1>Your Query is...</h1>
+<ul>
+<% for (query of Object.entries(q)) {%>
+    <li><% = query[0] %> <%= query[1]%> </li>
+
+
+<%  }%>
+</ul>
